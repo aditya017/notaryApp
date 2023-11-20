@@ -26,7 +26,7 @@ const NotaryContent = () => {
             variant="contained"
             size="large"
             sx={{
-              width: '20%',
+              width: '30%',
               backgroundColor: '#708090',
               '&:hover': { backgroundColor: '#708090' },
             }}

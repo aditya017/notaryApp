@@ -1,7 +1,13 @@
 import React from 'react'
+import BackButton from '../backButton'
 
 const AboutUs = () => {
-  return <p>About Us Section</p>
+  return (
+    <div>
+      <BackButton />
+      <p>About Us Section</p>
+    </div>
+  )
 }
 
 export default AboutUs
