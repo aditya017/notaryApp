@@ -1,0 +1,20 @@
+.mnImg {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.centered-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 30px;
+}
+
+.centered-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,14 @@
+.txtAliCnt {
+  text-align: center;
+}
+
+.main-Cnt-bg-clr {
+  background-color: #e1eadc;
+  height: 100vh;
+}
+
+body,
+html {
+  height: 100%; /* Ensures the full height of the page is considered */
+  margin: 0; /* Resets default margin */
+}
