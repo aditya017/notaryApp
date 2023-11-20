@@ -1,6 +1,6 @@
 import React from 'react'
 import './NotaryContent.css'
-import notaryImg from '../../assests/images/notaryShake.png'
+import notaryImg from '../../assets/images/notaryShake.png'
 import { Button, Grid } from '@mui/material'
 import Box from '@mui/material/Box'
 import LoginIcon from '@mui/icons-material/Login'
