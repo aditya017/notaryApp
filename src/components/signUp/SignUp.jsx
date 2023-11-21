@@ -25,7 +25,7 @@ const SignUp = () => {
   return (
     <div>
       <BackButton />
-      <Container maxWidth="md" sx={{ padding: '50px' }}>
+      <Container maxWidth="md" sx={{ padding: '20px' }}>
         <Typography variant="h5" sx={{ textAlign: 'center', fontWeight: 700 }}>
           Sign Up
         </Typography>
@@ -186,11 +186,13 @@ const SignUp = () => {
           >
             SignUp
           </Button>
+          <Typography variant="h6" gutterBottom sx={{textAlign: 'center', padding :'5px'}}>
+            Or
+          </Typography>
           <Button
             variant="contained"
             color="secondary"
             fullWidth
-            style={{ marginTop: '16px' }}
             onClick={() => navigateTo(navigate, '/login')}
           >
             Login

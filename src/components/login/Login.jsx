@@ -84,11 +84,13 @@ const Login = () => {
           >
             Login
           </Button>
+          <Typography variant="h6" gutterBottom sx={{textAlign: 'center', padding :'5px'}}>
+            Or
+          </Typography>
           <Button
             variant="contained"
             color="secondary"
             fullWidth
-            style={{ marginTop: '16px' }}
             onClick={() => navigateTo(navigate, '/signUp')}
           >
             SignUp
